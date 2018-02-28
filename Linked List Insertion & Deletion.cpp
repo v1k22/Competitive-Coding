@@ -1,3 +1,4 @@
+// This gave me hard time BC
 #include "bits/stdc++.h"
 using namespace std;
 
@@ -22,6 +23,13 @@ void append(int x) {
         cur = cur->next;
     }
     cur->next = newNode;
+}
+
+void append_at_beginning (int x) {
+    struct Node *newNode = new Node;
+    newNode->data = x;
+    newNode->next = head;
+    head = newNode;
 }
 
 void print_list() {
