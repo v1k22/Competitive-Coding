@@ -1,4 +1,4 @@
-// Bubble shor
+// Bubble Sort
 #include "bits/stdc++.h"
 using namespace std;
 
