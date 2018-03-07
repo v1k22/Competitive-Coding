@@ -46,7 +46,6 @@ bool Compare_Trees(struct Node *cur1, struct Node *cur2) {
 }
 
 int main () {
-  freopen("in.txt", "r", stdin);
   scanf("%d", &n);
   
   for (int i = 0; i < n; i++) {
